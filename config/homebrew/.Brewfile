@@ -6,4 +6,5 @@ tap "homebrew/core"
 brew "git"
 brew "gitmoji"
 brew "mas"
+cask "coteditor"
 mas "Xcode", id: 497799835

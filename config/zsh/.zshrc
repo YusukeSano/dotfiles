@@ -36,3 +36,4 @@ setopt pushd_ignore_dups
 alias ls='ls -FG'
 alias ll='ls -alFG'
 alias reload='exec $SHELL -l'
+alias cot='open -a /Applications/CotEditor.app'
