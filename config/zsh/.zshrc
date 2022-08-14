@@ -39,3 +39,6 @@ alias reload='exec $SHELL -l'
 alias vim="nvim"
 alias vi="nvim"
 alias cot='open -a /Applications/CotEditor.app'
+
+# Starship setup
+eval "$(starship init zsh)"
