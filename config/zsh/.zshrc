@@ -36,4 +36,6 @@ setopt pushd_ignore_dups
 alias ls='ls -FG'
 alias ll='ls -alFG'
 alias reload='exec $SHELL -l'
+alias vim="nvim"
+alias vi="nvim"
 alias cot='open -a /Applications/CotEditor.app'

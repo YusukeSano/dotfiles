@@ -6,6 +6,7 @@ tap "homebrew/core"
 brew "git"
 brew "gitmoji"
 brew "mas"
+brew "neovim"
 cask "coteditor"
 cask "iterm2-beta"
 mas "Xcode", id: 497799835
