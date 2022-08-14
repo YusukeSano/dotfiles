@@ -40,5 +40,8 @@ alias vim="nvim"
 alias vi="nvim"
 alias cot='open -a /Applications/CotEditor.app'
 
+# sheldon setup
+eval "$(sheldon source)"
+
 # Starship setup
 eval "$(starship init zsh)"

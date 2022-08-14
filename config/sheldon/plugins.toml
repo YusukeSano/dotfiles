@@ -1,0 +1,29 @@
+shell = 'zsh'
+
+apply = ['defer']
+
+[plugins.zsh-defer]
+github = 'romkatv/zsh-defer'
+apply = ['source']
+
+[templates]
+defer = { value = 'zsh-defer source "{{ file }}"', each = true }
+
+[plugins.asdf]
+github = "asdf-vm/asdf"
+
+[plugins.zsh-syntax-highlighting]
+github = 'zsh-users/zsh-syntax-highlighting'
+
+[plugins.zsh-autosuggestions]
+github = 'zsh-users/zsh-autosuggestions'
+use = ['{{ name }}.zsh']
+
+[plugins.zsh-completions]
+github = 'zsh-users/zsh-completions'
+
+[plugins.asdf-completions]
+inline = 'FPATH="${ASDF_DIR}/completions:${FPATH}"'
+
+[plugins.compinit]
+inline = 'autoload -Uz compinit && zsh-defer compinit'
