@@ -12,5 +12,6 @@ brew "starship"
 cask "coteditor"
 cask "font-hack-nerd-font"
 cask "font-jetbrains-mono"
+cask "google-chrome"
 cask "iterm2-beta"
 mas "Xcode", id: 497799835
