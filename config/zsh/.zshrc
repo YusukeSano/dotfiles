@@ -11,6 +11,7 @@ setopt share_history
 
 # Color
 autoload -Uz colors && colors
+zle_highlight+=(paste:none)
 
 # Completion
 if type brew &>/dev/null
