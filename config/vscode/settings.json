@@ -1,0 +1,16 @@
+{
+    "window.autoDetectColorScheme": true,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Iceberg",
+    "workbench.preferredDarkColorTheme": "Iceberg",
+    "workbench.preferredLightColorTheme": "Iceberg Light",
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "phase",
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+}

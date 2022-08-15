@@ -14,4 +14,5 @@ cask "font-hack-nerd-font"
 cask "font-jetbrains-mono"
 cask "google-chrome"
 cask "iterm2-beta"
+cask "visual-studio-code"
 mas "Xcode", id: 497799835
