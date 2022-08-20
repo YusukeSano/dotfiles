@@ -8,3 +8,9 @@ Set of configuration files.
   ```
   make link
   ```
+
+- Download and configure color scheme
+  
+  ```
+  make color
+  ```
