@@ -30,6 +30,9 @@ setopt print_eight_bit
 setopt no_beep
 setopt no_flow_control
 setopt auto_cd
+chpwd() {
+  ls -FG
+}
 setopt auto_pushd
 setopt pushd_ignore_dups
 
