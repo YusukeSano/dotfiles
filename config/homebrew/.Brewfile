@@ -18,6 +18,7 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "google-chrome"
 cask "iterm2-beta"
+cask "slack"
 cask "visual-studio-code"
 cask "xquartz"
 mas "Xcode", id: 497799835
