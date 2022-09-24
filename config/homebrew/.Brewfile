@@ -29,4 +29,5 @@ cask "notion"
 cask "slack"
 cask "visual-studio-code"
 cask "xquartz"
+cask "zoom"
 mas "Xcode", id: 497799835
