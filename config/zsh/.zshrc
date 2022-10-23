@@ -33,6 +33,7 @@ setopt auto_cd
 chpwd() {
   ls -FG
 }
+setopt chase_links
 setopt auto_pushd
 setopt pushd_ignore_dups
 
